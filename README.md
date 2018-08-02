@@ -8,7 +8,7 @@ Is as title.
 - [docker-composeでMySQLに接続する](https://qiita.com/M_Nagata/items/120831bb4e4a3deace13)
 - [RevelOnDocker](https://github.com/youtangai/RevelOnDocker)
 
-## gorm
+## GORM
 - [【GORM】Go言語でORM触ってみた](https://qiita.com/chan-p/items/cf3e007b82cc7fce2d81)
 - [Format Gorm struct to proper JSON](https://forum.golangbridge.org/t/format-gorm-struct-to-proper-json/4907)
 - [Revel + GORM を使う(アプリケーション作成〜Model作成編)](https://qiita.com/egawata/items/575ddd6add6fb9de9884)
