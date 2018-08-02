@@ -1,0 +1,20 @@
+version: '3.6'
+services:
+  db:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=revel
+      - MYSQL_USER=revel
+      - MYSQL_PASSWORD=root
+  web:
+    build: .
+    command: revel run myapp
+    volumes:
+      - ./myapp:/go/src/myapp
+    ports:
+      - 9000:9000
+    depends_on:
+      - db
