@@ -1,6 +1,13 @@
 # RevelOnDocker
 Is as title.
 
+# Usage
+```shell
+$ git clone git@github.com:zettaittenani/RevelOnDocker.git
+$ cd RevelOnDocker
+$ docker-compose up
+```
+
 # References
 ## Revel on Docker
 - [docker-composeでgolangのフレームワークrevelとMysqlを利用した開発環境を構築する](https://qiita.com/youtanagai/items/533341949daafc519da3)
